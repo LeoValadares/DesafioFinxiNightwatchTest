@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="02repo_info"
+    errors="0" failures="1" hostname="" id="" package="02repo_info" skipped="0"
+    tests="1" time="5.509" timestamp="Mon, 21 May 2018 05:19:58 GMT">
+  
+    <testcase name="Test Google Section" classname="02repo_info" time="5.509" assertions="2">
+
+      <failure message="Expected element &lt;Section[name=menu],Element[name=@mail]&gt; to be visible - element was not found">    at Object.Test Google Section (C:\Users\leova\Repos\desafiofinxiuitest\tests\02repo_info.js:13:24)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;.datatable &gt; tbody:nth-child(2) &gt; tr:nth-child(35) &gt; td:nth-child(3)&#34; using: css selector
+    at F.command (C:\Users\leova\Repos\desafiofinxiuitest\node_modules\nightwatch\lib\api\assertions\containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (C:\Users\leova\Repos\desafiofinxiuitest\node_modules\nightwatch\lib\core\assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (C:\Users\leova\Repos\desafiofinxiuitest\node_modules\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\Users\leova\Repos\desafiofinxiuitest\node_modules\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\Users\leova\Repos\desafiofinxiuitest\node_modules\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\Users\leova\Repos\desafiofinxiuitest\node_modules\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\Users\leova\Repos\desafiofinxiuitest\node_modules\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.traverse (C:\Users\leova\Repos\desafiofinxiuitest\node_modules\nightwatch\lib\core\queue.js:73:8)
+    at C:\Users\leova\Repos\desafiofinxiuitest\node_modules\nightwatch\lib\core\queue.js:65:10
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

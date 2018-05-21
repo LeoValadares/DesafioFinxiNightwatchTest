@@ -1,0 +1,123 @@
+04:24:35.381 INFO - Launching a standalone Selenium Server
+04:24:35.528 INFO - Java: Oracle Corporation 25.152-b16
+04:24:35.528 INFO - OS: Windows 10 10.0 amd64
+04:24:35.538 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+04:24:35.593 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+04:24:35.593 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+04:24:35.603 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+04:24:35.604 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+04:24:35.604 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+04:24:35.784 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+04:24:35.784 INFO - Selenium Server is up and running
+04:24:36.143 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pr Info, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+04:24:36.152 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pr Info, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 1971
+Only local connections are allowed.
+04:24:38.604 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pr Info, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+04:24:38.615 INFO - Executing: [get: http://localhost:3000/892275])
+04:24:40.019 INFO - Done: [get: http://localhost:3000/892275]
+04:24:40.030 INFO - Executing: [find elements: By.cssSelector: .display-2])
+04:24:40.063 INFO - Done: [find elements: By.cssSelector: .display-2]
+04:24:40.068 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (62dd96ecd5c5cb495d3c66e29fd449d0)] -> css selector: .display-2]])
+04:24:40.088 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (62dd96ecd5c5cb495d3c66e29fd449d0)] -> css selector: .display-2]]
+04:24:40.095 INFO - Executing: [find elements: By.cssSelector: .display-1])
+04:24:40.114 INFO - Done: [find elements: By.cssSelector: .display-1]
+04:24:40.122 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (62dd96ecd5c5cb495d3c66e29fd449d0)] -> css selector: .display-1]])
+04:24:40.147 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (62dd96ecd5c5cb495d3c66e29fd449d0)] -> css selector: .display-1]]
+04:24:40.176 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+04:24:40.178 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 36816
+Only local connections are allowed.
+04:24:42.085 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+04:24:42.091 INFO - Executing: [get: http://localhost:3000])
+04:24:42.691 INFO - Executing: [get: http://localhost:3000/892275])
+04:24:43.459 INFO - Done: [get: http://localhost:3000/892275]
+04:24:43.465 INFO - Executing: [find element: By.cssSelector: #app > div > div > section > section > div > div > div:nth-child(1)])
+04:24:43.569 INFO - Done: [find element: By.cssSelector: #app > div > div > section > section > div > div > div:nth-child(1)]
+04:24:43.581 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (62dd96ecd5c5cb495d3c66e29fd449d0)] -> css selector: #app > div > div > section > section > div > div > div:nth-child(1)]])
+04:24:45.138 INFO - Done: [get: http://localhost:3000]
+04:24:46.243 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (62dd96ecd5c5cb495d3c66e29fd449d0)] -> css selector: #app > div > div > section > section > div > div > div:nth-child(1)]]
+04:24:51.250 INFO - Executing: [get current url])
+04:24:51.259 INFO - Done: [get current url]
+04:24:51.266 INFO - Executing: [delete session: 1da5c216-415f-4514-9e16-36ef18331fef])
+04:24:52.266 INFO - Done: [delete session: 1da5c216-415f-4514-9e16-36ef18331fef]
+04:25:02.429 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+04:25:02.430 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 4654
+Only local connections are allowed.
+04:25:04.321 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+04:25:04.324 INFO - Executing: [get: http://localhost:3000])
+04:25:07.510 INFO - Done: [get: http://localhost:3000]
+04:25:07.515 INFO - Executing: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(3)])
+04:25:07.536 INFO - Done: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(3)]
+04:25:07.540 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (92cfa9288dc80b524c06d082248f0bf3)] -> css selector: .datatable > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(3)]])
+04:25:07.560 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (92cfa9288dc80b524c06d082248f0bf3)] -> css selector: .datatable > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(3)]]
+04:25:07.567 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (data) {
+      window.scrollTo(0,document.body.scrollHeight)
+    }.apply(window, passedArgs);, []])
+04:25:07.636 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (data) {
+      window.scrollTo(0,document.body.scrollHeight)
+    }.apply(window, passedArgs);, []]
+04:25:07.644 INFO - Executing: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)])
+04:25:07.685 INFO - Done: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)]
+04:25:08.190 INFO - Executing: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)])
+04:25:08.200 INFO - Done: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)]
+04:25:08.704 INFO - Executing: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)])
+04:25:08.716 INFO - Done: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)]
+04:25:09.220 INFO - Executing: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)])
+04:25:09.233 INFO - Done: [find elements: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)]
+04:25:09.237 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (92cfa9288dc80b524c06d082248f0bf3)] -> css selector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)]])
+04:25:09.257 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (92cfa9288dc80b524c06d082248f0bf3)] -> css selector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)]]
+04:25:09.263 INFO - Executing: [find element: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)])
+04:25:09.283 INFO - Done: [find element: By.cssSelector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)]
+04:25:09.287 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on XP (92cfa9288dc80b524c06d082248f0bf3)] -> css selector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)]])
+04:25:09.328 INFO - Done: [get text: 1 [[ChromeDriver: chrome on XP (92cfa9288dc80b524c06d082248f0bf3)] -> css selector: .datatable > tbody:nth-child(2) > tr:nth-child(35) > td:nth-child(3)]]
+04:25:09.338 INFO - Executing: [delete session: e57f51c0-c398-47da-9e7c-d6ec9aa2f9a2])
+04:25:10.193 INFO - Done: [delete session: e57f51c0-c398-47da-9e7c-d6ec9aa2f9a2]
+04:25:10.207 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+04:25:10.209 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 15327
+Only local connections are allowed.
+04:25:12.092 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+04:25:12.096 INFO - Executing: [get: http://localhost:3000])
+04:25:13.635 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (data) {
+      window.scrollTo(0,document.body.scrollHeight)
+    }.apply(window, passedArgs);, []])
+04:25:13.666 INFO - Done: [get: http://localhost:3000]
+04:25:13.679 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (data) {
+      window.scrollTo(0,document.body.scrollHeight)
+    }.apply(window, passedArgs);, []]
+04:25:13.684 INFO - Executing: [find elements: By.cssSelector: .snack__content])
+04:25:13.717 INFO - Done: [find elements: By.cssSelector: .snack__content]
+04:25:14.222 INFO - Executing: [find elements: By.cssSelector: .snack__content])
+04:25:14.236 INFO - Done: [find elements: By.cssSelector: .snack__content]
+04:25:14.239 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (e06c848627167be07fbec7f147bbadbe)] -> css selector: .snack__content]])
+04:25:14.259 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (e06c848627167be07fbec7f147bbadbe)] -> css selector: .snack__content]]
+04:25:14.763 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (e06c848627167be07fbec7f147bbadbe)] -> css selector: .snack__content]])
+04:25:14.775 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (e06c848627167be07fbec7f147bbadbe)] -> css selector: .snack__content]]
+04:25:14.781 INFO - Executing: [find element: By.cssSelector: .snack__content])
+04:25:14.801 INFO - Done: [find element: By.cssSelector: .snack__content]
+04:25:14.804 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on XP (e06c848627167be07fbec7f147bbadbe)] -> css selector: .snack__content]])
+04:25:14.845 INFO - Done: [get text: 0 [[ChromeDriver: chrome on XP (e06c848627167be07fbec7f147bbadbe)] -> css selector: .snack__content]]
+04:26:14.853 INFO - Executing: [delete session: 63c8961d-4e49-4a6f-a55c-929ec2b7ad8c])
+04:26:15.696 INFO - Done: [delete session: 63c8961d-4e49-4a6f-a55c-929ec2b7ad8c]
+04:26:20.705 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+04:26:20.707 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 43866
+Only local connections are allowed.
+04:26:22.625 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Repo List, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+04:26:22.629 INFO - Executing: [get: http://localhost:3000])
+04:26:25.846 INFO - Done: [get: http://localhost:3000]
+04:26:25.851 INFO - Executing: [find elements: By.cssSelector: #app > div > div > section > div > div > div > table > tbody > tr:nth-child(1) > td:nth-child(7) > a])
+04:26:25.905 INFO - Done: [find elements: By.cssSelector: #app > div > div > section > div > div > div > table > tbody > tr:nth-child(1) > td:nth-child(7) > a]
+04:26:25.909 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (c80984eadf535c3ec006763fef0c8291)] -> css selector: #app > div > div > section > div > div > div > table > tbody > tr:nth-child(1) > td:nth-child(7) > a]])
+04:26:25.960 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (c80984eadf535c3ec006763fef0c8291)] -> css selector: #app > div > div > section > div > div > div > table > tbody > tr:nth-child(1) > td:nth-child(7) > a]]
+04:26:25.969 INFO - Executing: [find element: By.cssSelector: #app > div > div > section > div > div > div > table > tbody > tr:nth-child(1) > td:nth-child(7) > a])
+04:26:25.995 INFO - Done: [find element: By.cssSelector: #app > div > div > section > div > div > div > table > tbody > tr:nth-child(1) > td:nth-child(7) > a]
+04:26:25.999 INFO - Executing: [click: 0 [[ChromeDriver: chrome on XP (c80984eadf535c3ec006763fef0c8291)] -> css selector: #app > div > div > section > div > div > div > table > tbody > tr:nth-child(1) > td:nth-child(7) > a]])
+04:26:26.119 INFO - Done: [click: 0 [[ChromeDriver: chrome on XP (c80984eadf535c3ec006763fef0c8291)] -> css selector: #app > div > div > section > div > div > div > table > tbody > tr:nth-child(1) > td:nth-child(7) > a]]
+04:26:31.123 INFO - Executing: [get current url])
+04:26:31.134 INFO - Done: [get current url]
+04:26:31.141 INFO - Executing: [delete session: 51bd2893-f613-43e8-8909-06159d6b18cd])
+04:26:32.013 INFO - Done: [delete session: 51bd2893-f613-43e8-8909-06159d6b18cd]

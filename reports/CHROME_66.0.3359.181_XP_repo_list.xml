@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="repo_list"
+    errors="0" failures="1" hostname="" id="" package="repo_list" skipped="0"
+    tests="4" time="111.8" timestamp="Mon, 21 May 2018 07:24:40 GMT">
+  
+    <testcase name="Test loading" classname="repo_list" time="22.25" assertions="2">
+
+      <failure message="Carregou lista de repos, primeiro elemento visível">    at Object.Test loading (C:\Users\leova\Repos\DesafioFinxiNightwatchTest\tests\repo_list.js:20:12)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Test pagination" classname="repo_list" time="7.777" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test too many api calls" classname="repo_list" time="70.50" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test navigation" classname="repo_list" time="11.31" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="01repo_list"
+    errors="0" failures="1" hostname="" id="" package="01repo_list" skipped="0"
+    tests="4" time="85.31" timestamp="Mon, 21 May 2018 06:56:33 GMT">
+  
+    <testcase name="Test loading" classname="01repo_list" time="6.737" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test pagination" classname="01repo_list" time="7.041" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test too many api calls" classname="01repo_list" time="66.81" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test navigation" classname="01repo_list" time="4.729" assertions="2">
+
+      <failure message="Navegou para a rota do repositório">    at Object.Test navigation (C:\Users\leova\Repos\desafiofinxiuitest\tests\01repo_list.js:87:19)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
